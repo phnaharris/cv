@@ -71,6 +71,12 @@
 \addtolength{\textheight}{1.4in}
 
 \urlstyle{same}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=black,
+}
 
 \raggedbottom
 \raggedright
@@ -189,7 +195,7 @@
 \vspace{5pt}
 \resumeSubHeadingListStart
 \resumeSubheading
-{Beowulf Blockchain \href{https://beowulfchain.com/}{\raisebox{-0.1\height}\faExternalLink}}{06 2022 -- Present}
+{Beowulf Blockchain \href{https://beowulfchain.com/}{\raisebox{-0.1\height}\faExternalLink}}{06 2022 -- 12 2023}
 {\underline{Blockchain Developer}}{Ho Chi Minh City, Vietnam}
 \resumeItemListStart
 \vspace{1pt}
@@ -214,6 +220,7 @@
 \resumeItem{\normalsize{Built automation tool with Selenium and WPF to improve the user interaction with the application}}
 \vspace{1pt}
 \resumeItemListEnd
+
 \resumeSubHeadingListEnd
 
 
@@ -286,7 +293,36 @@
 %-----------PROJECTS-----------
 \section{PROJECTS}
 \vspace{5pt}
+
 \resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{\large{alchemy-api-rs}} $|$ \large{FOSS}}{2023}
+\resumeItemListStart
+\resumeItem{\normalsize{A high-level binding for Alchemy Enhanced APIs, written in Rust.}}
+\resumeItem{\normalsize{Tech stack: Rust, REST API.}}
+\resumeItem{\normalsize{Source code: \url{https://github.com/phnaharris/alchemy-api-rs}.}}
+\resumeItemListEnd
+\vspace{-13pt}
+
+\resumeProjectHeading
+{\textbf{\large{symbiosis-api-rs}} $|$ \large{FOSS}}{2023}
+\resumeItemListStart
+\resumeItem{\normalsize{API binding for Symbiosis API written in Rust.}}
+\resumeItem{\normalsize{Tech stack: Rust, REST API.}}
+\resumeItem{\normalsize{Source code: \url{https://github.com/phnaharris/symbiosis-api-rs}.}}
+\resumeItemListEnd
+\vspace{-13pt}
+
+\resumeProjectHeading
+{\textbf{\large{Chat3}} $|$ \large{Blockchain Developer}}{2023}
+\resumeItemListStart
+\resumeItem{\normalsize{Chat3 is the socialfi platform designed to empower a
+vibrant web3 community, enabling creators, innovators, and enthusiasts to
+connect, engage, and earn.}}
+\resumeItem{\normalsize{Tech stack: Rust, REST API, Node.js, Blockchain, Solidity smart contract.}}
+\resumeItemListEnd
+\vspace{-13pt}
+
 \resumeProjectHeading
 {\textbf{\large{IHI}} $|$ \large{Mobile Developer}}{2021}
 \resumeItemListStart
@@ -296,101 +332,81 @@
 		our exercise. By using IHI, student can study from everywhere
 		they want and with their speed at specific lesson, easily check
 		their understanding just with a device which have Internet connection.}}
-
 \resumeItem{\normalsize{Tech stack: Xamarin.Forms with MVVM pattern, HttpRequest, payment process
 		with Momo, ASP.NET MVC Web API with Entity Framework.}}
-
-% \resumeItem{\textcolor{accent} {\href{https://github.com/phnaphnt/-HCMUS-KTLT-Pong-Game} {\normalsize{Github.}}}}
 \resumeItemListEnd
 \vspace{-13pt}
 
-\resumeProjectHeading
-{\textbf{\large{Automatic streaming tool}} $|$ \large{Developer}}{2021}
-\resumeItemListStart
-\resumeItem{\normalsize{The automatic tool that allow user to create, edit,
-		remove video stream on Youtube. User can create
-		Chrome profile associated with Google account,
-		choose video you want to stream on Youtube, setup start
-		time and end time of that live stream. When the tool
-		streaming, user can see quality of that video stream (by
-		bitrate, FPS, speed) and buy amount of viewers by third
-		party service. User can stream on more than one Google
-		account at a time.}}
-
-\resumeItem{\normalsize{Tech stack: WPF, Selenium with Chrome profile
-		interaction, multithreading architecture, Youtube
-		streaming with FFMPEG, WinAPI (Process).}}
-
-%\resumeItem{\textcolor{accent} {\href{https://github.com/phnaphnt/-HCMUS-KTLT-Pong-Game} {\normalsize{Github.}}}}
-\resumeItemListEnd
-\vspace{-13pt}
+% \resumeProjectHeading
+% {\textbf{\large{Automatic streaming tool}} $|$ \large{Developer}}{2021}
+% \resumeItemListStart
+% \resumeItem{\normalsize{The automatic tool that allow user to create, edit,
+% 		remove video stream on Youtube. User can create
+% 		Chrome profile associated with Google account,
+% 		choose video you want to stream on Youtube, setup start
+% 		time and end time of that live stream. When the tool
+% 		streaming, user can see quality of that video stream (by
+% 		bitrate, FPS, speed) and buy amount of viewers by third
+% 		party service. User can stream on more than one Google
+% 		account at a time.}}
+% \resumeItem{\normalsize{Tech stack: WPF, Selenium with Chrome profile
+% 		interaction, multithreading architecture, Youtube
+% 		streaming with FFMPEG, WinAPI (Process).}}
+% \resumeItemListEnd
+% \vspace{-13pt}
 
 
-\resumeProjectHeading
-{\textbf{\large{Gamvip account checking tool}} $|$ \large{Developer}}{2021}
-\resumeItemListStart
-\resumeItem{\normalsize{The automatic tool that allow user to load a list of gamvip (a list
-		of webgame) account, log in and request account information
-		like name, user id, financial information.... User can use
-		multithreading architecture to improve tool performance.}}
+% \resumeProjectHeading
+% {\textbf{\large{Gamvip account checking tool}} $|$ \large{Developer}}{2021}
+% \resumeItemListStart
+% \resumeItem{\normalsize{The automatic tool that allow user to load a list of gamvip (a list
+% 		of webgame) account, log in and request account information
+% 		like name, user id, financial information.... User can use
+% 		multithreading architecture to improve tool performance.}}
+% \resumeItem{\normalsize{Tech stack: WPF, HttpRequest, multithreading architecture.}}
+% \resumeItemListEnd
+% \vspace{-13pt}
 
-\resumeItem{\normalsize{Tech stack: WPF, HttpRequest, multithreading architecture.}}
+% \resumeProjectHeading
+% {\textbf{\large{Yahoo account checking tool}} $|$ \large{Developer}}{2020}
+% \resumeItemListStart
+% \resumeItem{\normalsize{The automatic tool that allow user to load a list of outlook
+% 		email (hotmail and password), check if that email have
+% 		yahoo account linked, save the yahoo account and use
+% 		that account to get account uid and reset a
+% 		corresponding facebook account password. User can
+% 		use multithreading architecture to improve tool
+% 		performance.}}
+% \resumeItem{\normalsize{Tech stack: WPF, Selenium, multithreading architecture,
+% 		regular expression, mail service library, bypass captcha
+% 		service library, HttpRequest.}}
+% \resumeItemListEnd
+% \vspace{-13pt}
 
-% \resumeItem{\textcolor{accent} {\href{https://github.com/phnaphnt/-HCMUS-KTLT-Pong-Game} {\normalsize{Github.}}}}
-\resumeItemListEnd
-\vspace{-13pt}
+% \resumeProjectHeading
+% {\textbf{\large{Order filtering tool}} $|$ \large{Developer}}{2020}
+% \resumeItemListStart
+% \resumeItem{\normalsize{The automatic tool that getting all of orders confirmation
+% 		email (email \& password provided), checking and
+% 		filtering details such as color, size, customer information
+% 		(phone, address, email, ...), ... add that details into excel
+% 		files.}}
+% \resumeItem{\normalsize{Tech stack: WPF, Selenium, multithreading architecture,
+% 		regular expression, mail service library.}}
+% \resumeItemListEnd
+% \vspace{-13pt}
 
-\resumeProjectHeading
-{\textbf{\large{Yahoo account checking tool}} $|$ \large{Developer}}{2020}
-\resumeItemListStart
-\resumeItem{\normalsize{The automatic tool that allow user to load a list of outlook
-		email (hotmail and password), check if that email have
-		yahoo account linked, save the yahoo account and use
-		that account to get account uid and reset a
-		corresponding facebook account password. User can
-		use multithreading architecture to improve tool
-		performance.}}
-
-\resumeItem{\normalsize{Tech stack: WPF, Selenium, multithreading architecture,
-		regular expression, mail service library, bypass captcha
-		service library, HttpRequest.}}
-
-%\resumeItem{\textcolor{accent} {\href{https://github.com/phnaphnt/-HCMUS-KTLT-Pong-Game} {\normalsize{Github.}}}}
-\resumeItemListEnd
-\vspace{-13pt}
-
-\resumeProjectHeading
-{\textbf{\large{Order filtering tool}} $|$ \large{Developer}}{2020}
-\resumeItemListStart
-\resumeItem{\normalsize{The automatic tool that getting all of orders confirmation
-		email (email \& password provided), checking and
-		filtering details such as color, size, customer information
-		(phone, address, email, ...), ... add that details into excel
-		files.}}
-
-\resumeItem{\normalsize{Tech stack: WPF, Selenium, multithreading architecture,
-		regular expression, mail service library.}}
-
-%5\resumeItem{\textcolor{accent} {\href{https://github.com/phnaphnt/-HCMUS-KTLT-Pong-Game} {\normalsize{Github.}}}}
-\resumeItemListEnd
-\vspace{-13pt}
-
-\resumeProjectHeading
-{\textbf{\large{Spotify password changing tool}} $|$ \large{Developer}}{2020}
-\resumeItemListStart
-\resumeItem{\normalsize{The automatic tool that allow user to load a list of Spotify
-		account with its changing password link. The tool follow the link
-		automatically, enter password and new password, bypass
-		captcha and submit. User can use multithreading architecture
-		to improve tool performance.}}
-
-\resumeItem{\normalsize{Tech stack: WPF, HttpRequest, multithreading architecture, Selenium.}}
-
-%\resumeItem{\textcolor{accent} {\href{https://github.com/phnaphnt/-HCMUS-KTLT-Pong-Game} {\normalsize{Github.}}}}
-\resumeItemListEnd
-\vspace{-13pt}
-
-\pagebreak
+% \resumeProjectHeading
+% {\textbf{\large{Spotify password changing tool}} $|$ \large{Developer}}{2020}
+% \resumeItemListStart
+% \resumeItem{\normalsize{The automatic tool that allow user to load a list of Spotify
+% 		account with its changing password link. The tool follow the link
+% 		automatically, enter password and new password, bypass
+% 		captcha and submit. User can use multithreading architecture
+% 		to improve tool performance.}}
+% \resumeItem{\normalsize{Tech stack: WPF, HttpRequest, multithreading architecture, Selenium.}}
+% \resumeItemListEnd
+% \vspace{-13pt}
 
 \resumeProjectHeading
 {\textbf{\large{Seanato}} $|$ \large{Mobile Developer}}{2019}
@@ -403,30 +419,31 @@
 		to provide customers with optimal choice and the most
 		effective.
 		\\Seanato also cooperates with Vietnam's major travel groups such as Vingroup, Sun World.}}
-
 \resumeItem{\normalsize{Tech stack: Xamarin.Forms with MVVM pattern, HttpRequest, payment
 		process with Momo \& Alepay...}}
-
-%\resumeItem{\textcolor{accent} {\href{https://github.com/phnaphnt/-HCMUS-KTLT-Pong-Game} {\normalsize{Github.}}}}
 \resumeItemListEnd
 \vspace{-13pt}
 
 \resumeProjectHeading
-{\textbf{\large{Pong game}} $|$ \large{Teamlead, Developer}}{2019}
+{\textbf{\large{Automation tools, bots}} $|$ \large{Developer}}{2019 - 2021}
 \resumeItemListStart
-\resumeItem{\normalsize{Pong game is my end-of-term project of Programming
-		Engineering term at university that use basic skill with C++
-		programming language.}}
-
-\resumeItem{\normalsize{Tech stack: C++ programming language.}}
-
-\resumeItem{\textcolor{accent} {\href{https://github.com/phnaphnt/-HCMUS-KTLT-Pong-Game} {\normalsize{Github.}}}}
+\resumeItem{\normalsize{In my freelance work, I've crafted a variety of tools
+and bots using C\# and Selenium to automate repetitive tasks, minimizing human
+effort and error.}}
+\resumeItem{\normalsize{Tech stack: WPF (C\#), Selenium, REST API, multithreading architecture ...}}
 \resumeItemListEnd
 \vspace{-13pt}
 
-
-
-
+% \resumeProjectHeading
+% {\textbf{\large{Pong game}} $|$ \large{Teamlead, Developer}}{2019}
+% \resumeItemListStart
+% \resumeItem{\normalsize{Pong game is my end-of-term project of Programming
+% 		Engineering term at university that use basic skill with C++
+% 		programming language.}}
+% \resumeItem{\normalsize{Tech stack: C++ programming language.}}
+% \resumeItem{\textcolor{accent} {\href{https://github.com/phnaphnt/-HCMUS-KTLT-Pong-Game} {\normalsize{Github.}}}}
+% \resumeItemListEnd
+% \vspace{-13pt}
 
 % \resumeProjectHeading
 %     {{\textbf{\large{\underline{Project Name}}}} $|$ \large{Technology Stack Used}}{2021}
